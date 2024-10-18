@@ -1,0 +1,36 @@
+# .gitignore
+
+# Node modules
+node_modules/
+
+# Logs
+logs
+*.log
+npm-debug.log*
+
+# Build files
+dist/
+build/
+
+# Environment variables
+.env
+
+# Ignore package-lock.json if you don't want it tracked (optional)
+# You can comment out this line if you want to track package-lock.json
+package-lock.json
+
+# Ignore compiled JavaScript files (if applicable)
+*.js.map
+
+# Ignore public files (if not needed)
+public/
+
+# Ignore editor/project specific files
+.vscode/
+.idea/
+.DS_Store
+*.sublime-workspace
+
+# Ignore cache files
+.cache/
+tmp/
